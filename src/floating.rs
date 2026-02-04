@@ -17,7 +17,7 @@ pub fn run(){
     println!("6.033e23: {}",avogadro);
 
 
-    let infinity = f64::INFINITY;
+    let infinity: f64 = f64::INFINITY;
     let neg_infinity:f64 = f64::INFINITY;
     let nan: f64 = f64::NAN;
     let max: f64 = f64::MAX;
@@ -30,6 +30,15 @@ pub fn run(){
     println!("max value: {}",max);
     println!("min value: {}",min);
     println!("min_positive:{}", min_positive);
+
+    let value: f64 = 0.0/0.0;
+
+    println!("is_infinite:{}", f64::INFINITY.is_infinite());
+    println!("is_finite: {}", (1.0f64).is_finite());
+    println!("is_normal: {}", (1.0f64).is_normal());
+    println!("is_nan: {}", value.is_nan());
+
+
 
 
 }
