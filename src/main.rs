@@ -3,11 +3,12 @@
 //mod signedintegers;
 //mod unsigned;
 //mod floating;
+//mod typeinterface;
 
-mod typeinterface;
+mod  turbofish;
 pub fn main() {
-
-    typeinterface::run();
+     turbofish::run();
+    //typeinterface::run();
     //floating::run();
     //unsigned::run();
      //signedintegers::run();
