@@ -2,10 +2,13 @@
 //mod scalar;
 //mod signedintegers;
 //mod unsigned;
+//mod floating;
 
-mod floating;
+mod typeinterface;
 pub fn main() {
-     floating::run();
+
+    typeinterface::run();
+    //floating::run();
     //unsigned::run();
      //signedintegers::run();
     //compound::run();
