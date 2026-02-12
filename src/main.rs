@@ -6,9 +6,10 @@
 //mod typeinterface;
 mod listmanager;
 //mod  turbofish;
+mod calculator;
 pub fn main() {
 
-
+    calculator::run();
     listmanager::run();
      //urbofish::run();
     //typeinterface::run();
