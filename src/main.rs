@@ -8,10 +8,13 @@ mod listmanager;
 //mod  turbofish;
 mod calculator;
 mod bankerror;
+
+mod word;
 pub fn main() {
     bankerror::run();
     calculator::run();
     listmanager::run();
+    word::run();
      //urbofish::run();
     //typeinterface::run();
     //floating::run();
